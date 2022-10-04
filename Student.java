@@ -5,10 +5,11 @@ public class Student {
     private String lastName;
     private ArrayList<Double> examScores;
 
+
     public Student(String firstName, String lastName, ArrayList<Double> examScores) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.examScores = examScores;
+        this.examScores = examScores; 
     }
 
     public String getFirstName() {
